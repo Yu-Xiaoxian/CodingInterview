@@ -16,30 +16,25 @@ public:
 
 		char *p1 = str;
 		char *p2 = p1;
-		int count = 0;
+		int numSpaces = 0;
 
 		while (*p1 != '\0' && p1 - str < length) {
-			if (*p1 == ' ') count++;
+			if (*p1 == ' ') numSpaces++;
 			p1++;
 		}
-		p2 = p1 + 2 * count;
+		p2 = p1 + 2 * numSpaces;
 
 		while (p1 != p2) {
 			if (*p1 == ' ') {
-				*p2 = '0';
-				p2--;
-				*p2 = '2';
-				p2--;
-				*p2 = '%';
+				*p2-- = '0';
+				*p2-- = '2';
+				*p2-- = '%';
+				p1--;
 			}
 			else {
-				*p2 = *p1;
+				*p2-- = *p1--;
 			}
-			p2--;
-			p1--;
 		}
-
-		std::cout << count << std::endl;
 
 	}
 };
@@ -49,7 +44,6 @@ int main()
 	Solution s;
 	char st[30] = " We are Happy";
 	s.replaceSpace(st, 12);
-	std::cout << "Hello World!\n";
 	char *p = st;
 	while (*p != '\0' && p - st < 20) {
 		std::cout << *p;
