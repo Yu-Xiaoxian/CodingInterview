@@ -6,9 +6,19 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46F2F193-CCB7-4CC6-97D1-615DD3B28A6E}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE.txt = LICENSE.txt
+		README.MD = README.MD
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001_ReplaceSpaces", "001_ReplaceSpaces\001_ReplaceSpaces.vcxproj", "{ED43EAD2-BDCB-4072-8F28-DC7A0D4F86AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{29090266-834A-4E4E-A994-EBD03F8546F3}"
+	ProjectSection(SolutionItems) = preProject
+		001_ReplaceSpaces.md = 001_ReplaceSpaces.md
+		002_QueneWithTwoStacks.md = 002_QueneWithTwoStacks.md
+		index.md = index.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002_QueneWithTwoStacks", "002_QueneWithTwoStacks\002_QueneWithTwoStacks.vcxproj", "{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Meituan_01", "Meituan_01\Meituan_01.vcxproj", "{32BC5A29-E9CD-49B9-B688-1F808C59DED0}"
 EndProject
@@ -56,6 +66,14 @@ Global
 		{FA20D739-B628-415D-82CA-A6C1B2422EC9}.Release|x64.Build.0 = Release|x64
 		{FA20D739-B628-415D-82CA-A6C1B2422EC9}.Release|x86.ActiveCfg = Release|Win32
 		{FA20D739-B628-415D-82CA-A6C1B2422EC9}.Release|x86.Build.0 = Release|Win32
+		{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}.Debug|x64.ActiveCfg = Debug|x64
+		{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}.Debug|x64.Build.0 = Debug|x64
+		{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}.Debug|x86.Build.0 = Debug|Win32
+		{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}.Release|x64.ActiveCfg = Release|x64
+		{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}.Release|x64.Build.0 = Release|x64
+		{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}.Release|x86.ActiveCfg = Release|Win32
+		{8D30E8A9-4F43-40FF-B83D-4B047CBC7610}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
