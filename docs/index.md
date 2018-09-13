@@ -9,6 +9,7 @@
 ## Tree
 ### [Construct Binary Tree](003_ConstructBinaryTree.html)
 ### [Tree Depth](004_TreeDepth.html)
+### [Next Node in Binary Tree](005_NextNodeInBinaryTree.html)
 
 ## Map
 
