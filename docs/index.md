@@ -14,4 +14,7 @@
 
 ## Map
 
+## Algorithm
+### [Dynamic Planning: Cutting Rope](008_CuttingRope.html)
+
 [about](about.html)
