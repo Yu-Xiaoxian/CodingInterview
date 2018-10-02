@@ -50,6 +50,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiDi_002", "DiDi_002\DiDi_0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "008_CuttingRope", "008_CuttingRope\008_CuttingRope.vcxproj", "{DB0B7B26-C902-4744-B8F6-F520BB51A8AA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "009_Fibonacci", "009_Fibonacci\009_Fibonacci.vcxproj", "{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -194,6 +196,14 @@ Global
 		{DB0B7B26-C902-4744-B8F6-F520BB51A8AA}.Release|x64.Build.0 = Release|x64
 		{DB0B7B26-C902-4744-B8F6-F520BB51A8AA}.Release|x86.ActiveCfg = Release|Win32
 		{DB0B7B26-C902-4744-B8F6-F520BB51A8AA}.Release|x86.Build.0 = Release|Win32
+		{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}.Debug|x64.ActiveCfg = Debug|x64
+		{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}.Debug|x64.Build.0 = Debug|x64
+		{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}.Debug|x86.ActiveCfg = Debug|Win32
+		{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}.Debug|x86.Build.0 = Debug|Win32
+		{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}.Release|x64.ActiveCfg = Release|x64
+		{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}.Release|x64.Build.0 = Release|x64
+		{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}.Release|x86.ActiveCfg = Release|Win32
+		{CEF1B242-2FD4-468E-9C1A-8660A3A59C78}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
