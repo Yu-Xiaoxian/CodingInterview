@@ -14,7 +14,7 @@ class Solution {
 public:
 	int Fibonacci_Solution1(int n) {
 		if (n == 0)
-			return 1;
+			return 0;
 		if (n == 1)
 			return 1;
 
@@ -25,10 +25,10 @@ public:
 		if (n == 0)
 			return 0;
 		if (n == 1)
-			return 1;
+			return 0;
 		if (n == 2)
 			return 1;
-		int f_a = 1;
+		int f_a = 0;
 		int f_b = 1;
 		int f_c = 0;
 		for (int i = 2; i < n; i++) {
