@@ -19,5 +19,6 @@
 ### [Dynamic Planning: Cutting Rope](008_CuttingRope.html)
 ### [Fibonacci](009_Fibonacci.html)
 ### [Power of Integer Exponent](010_Power.html)
+### [Back Tracking: String Path in Matrix](011_StringPathInMatrix.html)
 
 [about](about.html)
