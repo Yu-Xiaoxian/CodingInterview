@@ -54,6 +54,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "009_Fibonacci", "009_Fibona
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "010_Power", "010_Power\010_Power.vcxproj", "{CCC6EC0B-AACD-4A07-8689-1B76520BF50A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "011_StringPathInMatrix", "011_StringPathInMatrix\011_StringPathInMatrix.vcxproj", "{376F7451-E216-4D24-84FF-BC2A9838D530}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -214,6 +216,14 @@ Global
 		{CCC6EC0B-AACD-4A07-8689-1B76520BF50A}.Release|x64.Build.0 = Release|x64
 		{CCC6EC0B-AACD-4A07-8689-1B76520BF50A}.Release|x86.ActiveCfg = Release|Win32
 		{CCC6EC0B-AACD-4A07-8689-1B76520BF50A}.Release|x86.Build.0 = Release|Win32
+		{376F7451-E216-4D24-84FF-BC2A9838D530}.Debug|x64.ActiveCfg = Debug|x64
+		{376F7451-E216-4D24-84FF-BC2A9838D530}.Debug|x64.Build.0 = Debug|x64
+		{376F7451-E216-4D24-84FF-BC2A9838D530}.Debug|x86.ActiveCfg = Debug|Win32
+		{376F7451-E216-4D24-84FF-BC2A9838D530}.Debug|x86.Build.0 = Debug|Win32
+		{376F7451-E216-4D24-84FF-BC2A9838D530}.Release|x64.ActiveCfg = Release|x64
+		{376F7451-E216-4D24-84FF-BC2A9838D530}.Release|x64.Build.0 = Release|x64
+		{376F7451-E216-4D24-84FF-BC2A9838D530}.Release|x86.ActiveCfg = Release|Win32
+		{376F7451-E216-4D24-84FF-BC2A9838D530}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

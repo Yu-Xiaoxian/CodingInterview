@@ -1,12 +1,12 @@
-/*******************************************************************
-Copyright(c) 2018, Yu Xiaoxian
+ï»¿/*******************************************************************
+ï»¿Copyright(c) 2016, Harry He (ä½•æµ·æ¶›)
 All rights reserved.
 Distributed under the BSD license.
 (See accompanying file LICENSE.txt at
-https://github.com/Yu-Xiaoxian/CodingInterview/blob/master/LICENSE.txt)
+https://github.com/zhedahht/CodingInterviewChinese2/blob/master/LICENSE.txt)
 *******************************************************************/
 
-//ÊıÖµµÄÕûÊı´Î·½
+//æ•°å€¼çš„æ•´æ•°æ¬¡æ–¹
 
 #include <iostream>
 //#include <cmath>
@@ -69,7 +69,7 @@ bool equal(double num1, double num2)
 		return false;
 }
 
-// ====================²âÊÔ´úÂë====================
+// ====================æµ‹è¯•ä»£ç ====================
 void Test(const char* testName, double base, int exponent, double expectedResult, bool expectedFlag)
 {
 	Solution s;
@@ -82,25 +82,25 @@ void Test(const char* testName, double base, int exponent, double expectedResult
 
 int main(int argc, char* argv[])
 {
-	// µ×Êı¡¢Ö¸Êı¶¼ÎªÕıÊı
+	// åº•æ•°ã€æŒ‡æ•°éƒ½ä¸ºæ­£æ•°
 	Test("Test1", 2, 3, 8, false);
 
-	// µ×ÊıÎª¸ºÊı¡¢Ö¸ÊıÎªÕıÊı
+	// åº•æ•°ä¸ºè´Ÿæ•°ã€æŒ‡æ•°ä¸ºæ­£æ•°
 	Test("Test2", -2, 3, -8, false);
 
-	// Ö¸ÊıÎª¸ºÊı
+	// æŒ‡æ•°ä¸ºè´Ÿæ•°
 	Test("Test3", 2, -3, 0.125, false);
 
-	// Ö¸ÊıÎª0
+	// æŒ‡æ•°ä¸º0
 	Test("Test4", 2, 0, 1, false);
 
-	// µ×Êı¡¢Ö¸Êı¶¼Îª0
+	// åº•æ•°ã€æŒ‡æ•°éƒ½ä¸º0
 	Test("Test5", 0, 0, 1, false);
 
-	// µ×ÊıÎª0¡¢Ö¸ÊıÎªÕıÊı
+	// åº•æ•°ä¸º0ã€æŒ‡æ•°ä¸ºæ­£æ•°
 	Test("Test6", 0, 4, 0, false);
 
-	// µ×ÊıÎª0¡¢Ö¸ÊıÎª¸ºÊı
+	// åº•æ•°ä¸º0ã€æŒ‡æ•°ä¸ºè´Ÿæ•°
 	Test("Test7", 0, -4, 0, true);
 
 	return 0;
